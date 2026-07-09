@@ -1,0 +1,469 @@
+{ Language file for application wCncPcb }
+ { Label1 }
+Размеры проекта:
+ { Label6 }
+Диаметр фрезы:
+ { Label8 }
+Нулевая точка компонента:
+ { Label13 }
+Сетка и шаг курсора:
+ { chSaveGCode }
+Сохранить gCode
+ { Label62 }
+Сохранить всё
+ { chSaveGCode_Bk }
+Сохранить gCode - обратная сторона
+ { chSaveImage }
+Сохранить цветное изображение
+ { chSaveMarkerImage }
+Сохранить изображение маркировки
+ { chSaveCopperImage }
+Сохранить изображение дорожек
+ { chSaveBackCpImage }
+Сохранить изображение дорожек
+ { Label63 }
+- обратная сторона
+ { Label67 }
+Сохранить компонент
+ { Label68 }
+Имя компонента
+ { lCut_Hole }
+Отверстие
+ { lCut_Square }
+Скругленный квадрат
+ { lCut_Circle }
+Круг
+ { lCut_Way }
+Путь
+ { Label54 }
+Координаты курсора:
+ { Label55 }
+Координаты компонента:
+ { lCut_Text }
+Текст
+ { LCut_LayerLabel }
+Слой (Layer)
+ { chCut_LayerParameter }
+Унифицировать параметры слоев
+ { chCut_RectAndHole }
+Контур с отверстиями
+ { Label64 }
+Список компонентов
+ { ComponentFlopY }
+Отразить по оси Y
+ { ComponentRotate }
+Повернуть на 90°
+ { ComponentFlopX }
+Отразить по оси X
+ { ChNotGroup }
+Пометить как раздельные
+ { Label57 }
+Список действий
+ { Label65 }
+Массовое выделение
+ { Label66 }
+Компоненты
+ { chOnlyPosHandler }
+Редактировать только через привязку
+ { Label16 }
+Начальная точка:
+ { Label17 }
+Конечная точка:
+ { Label18 }
+Отражение:
+ { chFlopX }
+Вертикально
+ { chFlopY }
+Горизонтально
+ { Label19 }
+Слои:
+ { Label36 }
+Подача:
+ { Label37 }
+Ноль:
+ { Label38 }
+Медь:
+ { Label39 }
+Резка:
+ { Label56 }
+Отражение верхней стороны
+ { chBFlopX }
+Вертикально
+ { chBFlopY }
+Горизонтально
+ { Label147 }
+Верхняя сторона
+ { chTopEnDrill }
+Включить отверстия
+ { chTopEnCut }
+Включить резку
+ { chTopEnContour }
+Включить контур
+ { Label150 }
+Команда зондирования (PROBE)
+ { Label151 }
+ - Пример: G38.3Z-30F10
+ { Label58 }
+Заголовок файла gCode
+ { chAddName }
+Вставить имя
+ { chAddDate }
+Вставить дату и время
+ { Label59 }
+Код инициализации
+ { Label60 }
+Код завершения
+ { Label61 }
+Пресет
+ { Label70 }
+Расширение файла [без точки]
+ { Label106 }
+Единицы измерения
+ { imInch }
+Файл в дюймах (Inch)
+ { im1000 }
+Тысячная доля (mil)
+ { Label123 }
+Отразить
+ { imfAutosize }
+Подогнать размер
+ { imfGTL }
+Верхний слой меди
+ { imfGBL }
+Нижний слой меди
+ { imfGTO }
+Верхняя маркировка
+ { imfDRL }
+Отверстия, площадки (pads)
+ { infAutoFlop }
+Корректный поворот
+ { Label141 }
+Файлы: .GTL, .cmp
+ { Label142 }
+Файлы: .GBL, .sol
+ { Label143 }
+Файлы: .GTO .plc
+ { Label144 }
+Файлы: .DRL, .dpv
+ { imfDRH }
+Файл: .drh
+ { imfMIL }
+Фрезеровка .mil
+ { Label139 }
+Excellon
+ { excAppend }
+Добавить из другого файла
+ { Label133 }
+Слой
+ { Label134 }
+ Фреза Ø
+ { clpDrillEnable }
+Включить смещение
+ { clpSetSize }
+Изменить размер
+ { Label137 }
+GERBER
+ { Label148 }
+Используемый Clipper
+ { clpLayer_1 }
+Нижний слой
+ { clpLayer_2 }
+Верхний слой
+ { clpLayer_3 }
+Маркировка
+ { clpLayer_4 }
+Фрезеровка
+ { Label107 }
+Назначение слоев (L)
+ { Label108 }
+Снизу:
+ { Label109 }
+Сверху:
+ { Label110 }
+Резка:
+ { Label111 }
+Контур:
+ { Label112 }
+Маркировка:
+ { dxfSetSize }
+Изменить размер
+ { Label119 }
+Шаг:
+ { Label120 }
+Толщина
+ { dxfChangeWidth }
+Загрузить толщину линии
+ { Label121 }
+Качество загрузки
+ { Label138 }
+DXF
+ { imgInvert }
+Инверсия (медь - белая)
+ { Label124 }
+Разрешение
+ { Label125 }
+DPI
+ { Label126 }
+ Фреза Ø
+ { imgCleaner }
+Коррекция сглаживания
+ { Label130 }
+Разделить
+ { Label131 }
+Слой
+ { imgSetSize }
+Размеры изображения
+ { Label161 }
+Текст
+ { Label72 }
+Статус
+ { Label73 }
+Терминал
+ { comMonitor }
+Монитор
+ { Label76 }
+Скорость
+ { Label74 }
+Компонент
+ { Label75 }
+gCode
+ { comBack }
+Обратная сторона
+ { Label77 }
+Шаг подачи [mm]
+ { spMotorEnable }
+Мотор - обороты (RPM)
+ { Label78 }
+Скорость подачи [mm/s]
+ { Label83 }
+Выравнивание поверхности
+ { Label84 }
+Размер X
+ { Label85 }
+Размер Y
+ { Label86 }
+Толщина фрезы
+ { Label87 }
+Глубина
+ { spOffsetZEnable }
+Использовать отклонения оси Z
+ { spBoard }
+Размеры заготовки
+ { fsCupperEn }
+Параметры пазов
+ { Label97 }
+Подача
+ { Label98 }
+Диаметр
+ { Label99 }
+Глубина
+ { fsDrillEn }
+Параметры сверления
+ { Label100 }
+Подача
+ { Label101 }
+Диаметр
+ { Label102 }
+Глубина
+ { fsCutEn }
+Параметры фрезеровки
+ { Label103 }
+Подача
+ { Label104 }
+Диаметр
+ { Label105 }
+Глубина
+ { fsAddSpeed }
+Добавить параметр скорости
+ { Label152 }
+для пазов, сверления и фрезы
+ { Label153 }
+согласно параметрам подачи
+ { Label154 }
+Использование парам. F в gCode:
+ { Label155 }
+Создать несколько изделий:
+ { mrProbe }
+Одиночное измерение
+ { mrSimpleProbe }
+Четыре измерения
+ { mrMultiprobe }
+Мульти-зондирование
+ { Label156 }
+Найти ноль Z
+ { Label157 }
+Кратность
+ { mFile }
+Файл
+ { mNewFile }
+Новый файл
+ { mOpenFile }
+Открыть файл
+ { mSaveMyFile }
+Сохранить файл
+ { mSaveFile }
+Сохранить файл как
+ { mSaveToComponent }
+Сохранить компонент
+ { mSaveGCode }
+Сохранить gCode
+ { mSaveAll }
+Сохранить всё
+ { mImport }
+Импорт
+ { mGER }
+Импорт GERBER
+ { mExc }
+Импорт Excellon
+ { mDXF }
+Импорт FlatCamDXF
+ { mImg }
+Импорт изображения
+ { mComponentAdd }
+Открыть как компонент
+ { mOpenImage }
+Открыть изображение
+ { MenuItem1 }
+Правка
+ { mBack }
+Отменить [Ctrl+Z]
+ { mFoward }
+Повторить [Ctrl+Shift+Z]
+ { msbEdit }
+Редактировать
+ { mSetTo254 }
+Выделить
+ { mFlopX }
+Отразить по оси X
+ { mFlopY }
+Отразить компонент по оси Y
+ { mOptimalize }
+Оптимизировать
+ { mBrakeLine }
+Разбить длинные пути
+ { mAutoSize }
+Подогнать размеры
+ { mNewGroupFromExcellon }
+Использовать Excellon как компонент
+ { mNewGroupFromClipper }
+Использовать Clipper как компонент
+ { mNewGroupFromDXF }
+Использовать FlatCam как компонент
+ { mNewGroupFromImg }
+Использовать изображение как компонент
+ { MenuItem42 }
+Настройки
+ { mChKeyEn }
+Управление клавиатурой
+ { mLockCTRL }
+CTRL нажат (фиксация)
+ { mSwitchEdirSelect }
+Edit: Переключать Редакт/Выбор
+ { mEditUnselect }
+Edit: Снять выбор перед правкой
+ { mHole_Mirror }
+Параметр: Режим крепежных отверстий
+ { mDispAxis }
+Параметр: Установить коорд. кликом
+ { mImportImgShow }
+Import.Img: Предпросмотр конвертации
+ { MenuItem2 }
+Интерпретатор
+ { MenuItem3 }
+Создать gCode
+ { mFreza }
+Фрезеровка
+ { MenuItem24 }
+Настроить интерпретатор GRBL
+ { MenuItem25 }
+Настроить интерпретатор PROXXON
+ { MenuItem43 }
+Настройки
+ { mOptimalizeEn }
+Интерпретатор: Авто-оптимизация
+ { mRegSendEdit }
+Фреза.Регистр: Отправить правку
+ { mgsOKEn }
+Фреза.Статус: Показывать OK
+ { mgsStrEn }
+Фреза.Статус: Показывать значения $
+ { mgsRepEn }
+Фреза.Статус: Показывать отчет <>
+ { mgsDisConn }
+Фреза: Отключить порт в конце
+ { mAutoSavePosition }
+Фреза: Сохранить позицию перед стартом
+ { mgsStopCmd }
+Фреза: При STOP отправить !
+ { mProbeMsg }
+Фреза.Зонд: Предупреждать перед замером
+ { mAutoBreakLine }
+Фреза.Зонд: Разбить пути при мульти-замере
+ { mgsLesonPort }
+Порт: Искать порты при запуске
+ { MenuItem4 }
+Помощь
+ { mHTML }
+http://wwlado.sk (Копировать адрес)
+ { mVideo }
+Видео-инструкция (Копировать адрес)
+ { mMyName }
+О программе
+ { miName }
+Магистр Владимир Вишнёвский
+ { miEmial }
+wwlado@gmail.com
+ { miVersion }
+v. 2.4.3 (c) 2025 Липаны, Словакия
+ { mCreateLNG }
+Создать файл LNG
+ { mDel }
+Удалить
+ { mMedzi }
+Выделить промежуток
+ { MenuItem26 }
+Сброс [~]
+ { MenuItem27 }
+Стоп [!]
+ { MenuItem28 }
+Защитная дверь [0x84]
+ { MenuItem29 }
+Отмена JOG шага [0x85]
+ { MenuItem30 }
+Показать настройки Grbl [$$]
+ { MenuItem31 }
+Показать параметры GCode [$#]
+ { MenuItem32 }
+Показать состояние парсера [$G]
+ { MenuItem33 }
+Режим проверки GCode [$C]
+ { MenuItem34 }
+Цикл гоминга [$H]
+ { MenuItem35 }
+Статус блокировки Alarm [$X]
+ { MenuItem36 }
+Инфо о сборке [$I]
+ { MenuItem37 }
+Сохраненный стартовый код [$N]
+ { MenuItem38 }
+Сброс настроек Grbl [$RST=$]
+ { MenuItem39 }
+Очистить WCS и позиции в EEPROM [$RST=#]
+ { MenuItem40 }
+Очистить всё в EEPROM [$RST=*]
+ { MenuItem41 }
+Режим сна [$SLP]
+ { MenuItem46 }
+AT-команда - проверка
+ { MenuItem47 }
+AT-команда - Скорость 115200
+ { MenuItem48 }
+AT-команда - Скорость 9600
+ { MenuItem49 }
+Все
+ { MenuItem50 }
+Дорожки
+ { MenuItem51 }
+Отверстия (для сверления)
+ { MenuItem52 }
+Вырез и отфрезерованное отверстие

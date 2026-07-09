@@ -1,0 +1,469 @@
+{ Language file for application wCncPcb }
+ { Label1 }
+Wymiary projektu:
+ { Label6 }
+Średnica frezu:
+ { Label8 }
+Punkt zerowy komponentu:
+ { Label13 }
+Siatka i krok kursora:
+ { chSaveGCode }
+Zapisz gCode
+ { Label62 }
+Zapisz wszystko
+ { chSaveGCode_Bk }
+Zapisz gCode - druga strona
+ { chSaveImage }
+Zapisz kolorowy obraz
+ { chSaveMarkerImage }
+Zapisz obraz opisu (serigrafia)
+ { chSaveCopperImage }
+Zapisz obraz ścieżek
+ { chSaveBackCpImage }
+Zapisz obraz ścieżek
+ { Label63 }
+- druga strona
+ { Label67 }
+Zapisz komponent
+ { Label68 }
+Nazwa komponentu
+ { lCut_Hole }
+Otwór
+ { lCut_Square }
+Zaokrąglony kwadrat
+ { lCut_Circle }
+Koło
+ { lCut_Way }
+Ścieżka/Trasa
+ { Label54 }
+Współrzędne kursora:
+ { Label55 }
+Współrzędne komponentu:
+ { lCut_Text }
+Tekst
+ { LCut_LayerLabel }
+Warstwa
+ { chCut_LayerParameter }
+Ujednolicenie parametrów warstw
+ { chCut_RectAndHole }
+Kontur z otworami
+ { Label64 }
+Lista komponentów
+ { ComponentFlopY }
+Odbij wzdłuż osi Y
+ { ComponentRotate }
+Obróć o 90°
+ { ComponentFlopX }
+Odbij wzdłuż osi X
+ { ChNotGroup }
+Zaznacz jako rozdzielone
+ { Label57 }
+Lista operacji
+ { Label65 }
+Zaznaczanie grupowe
+ { Label66 }
+Komponenty
+ { chOnlyPosHandler }
+Edycja elementu tylko przez uchwyt
+ { Label16 }
+Punkt początkowy:
+ { Label17 }
+Punkt końcowy:
+ { Label18 }
+Odbicie:
+ { chFlopX }
+Pionowe
+ { chFlopY }
+Poziome
+ { Label19 }
+Warstwy:
+ { Label36 }
+Posuw:
+ { Label37 }
+Zero:
+ { Label38 }
+Miedź:
+ { Label39 }
+Cięcie:
+ { Label56 }
+Odbicie górnej strony
+ { chBFlopX }
+Pionowe
+ { chBFlopY }
+Poziome
+ { Label147 }
+Górna strona
+ { chTopEnDrill }
+Zezwól na otwory
+ { chTopEnCut }
+Zezwól na cięcie
+ { chTopEnContour }
+Zezwól na kontur
+ { Label150 }
+Polecenie sondowania PROBE
+ { Label151 }
+ - Przykład: G38.3Z-30F10
+ { Label58 }
+Nagłówek pliku gCode
+ { chAddName }
+Wstaw nazwę
+ { chAddDate }
+Wstaw datę i czas
+ { Label59 }
+Kod inicjalizujący
+ { Label60 }
+Zakończenie kodu
+ { Label61 }
+Ustawienie wstępne
+ { Label70 }
+Rozszerzenie pliku [bez kropki]
+ { Label106 }
+Jednostki wymiarów
+ { imInch }
+Plik jest w calach (Inch)
+ { im1000 }
+Tysięczna (mil)
+ { Label123 }
+Odbij
+ { imfAutosize }
+Dopasuj rozmiar
+ { imfGTL }
+Górna warstwa miedzi
+ { imfGBL }
+Dolna warstwa miedzi
+ { imfGTO }
+Górny opis
+ { imfDRL }
+Otwory, pady
+ { infAutoFlop }
+Prawidłowe obrócenie
+ { Label141 }
+Pliki: .GTL, .cmp
+ { Label142 }
+Pliki: .GBL, .sol
+ { Label143 }
+Pliki: .GTO .plc
+ { Label144 }
+Pliki: .DRL, .dpv
+ { imfDRH }
+Plik: .drh
+ { imfMIL }
+Frezowanie .mil
+ { Label139 }
+Excellon
+ { excAppend }
+Uzupełnij z innego pliku
+ { Label133 }
+Warstwa
+ { Label134 }
+ Frez Ø
+ { clpDrillEnable }
+Zezwól na odsunięcie (offset)
+ { clpSetSize }
+Zmień rozmiar
+ { Label137 }
+GERBER
+ { Label148 }
+Użyty Clipper
+ { clpLayer_1 }
+Warstwa dolna
+ { clpLayer_2 }
+Warstwa górna
+ { clpLayer_3 }
+Opis
+ { clpLayer_4 }
+Frezowanie
+ { Label107 }
+Przypisanie warstw (L)
+ { Label108 }
+Dolna:
+ { Label109 }
+Górna:
+ { Label110 }
+Cięcie:
+ { Label111 }
+Kontur:
+ { Label112 }
+Opis:
+ { dxfSetSize }
+Zmień rozmiar
+ { Label119 }
+Krok:
+ { Label120 }
+Grubość
+ { dxfChangeWidth }
+Wczytaj grubość linii
+ { Label121 }
+Jakość wczytywania
+ { Label138 }
+DXF
+ { imgInvert }
+Inwersja (miedź - biała)
+ { Label124 }
+Rozdzielczość
+ { Label125 }
+DPI
+ { Label126 }
+ Frez Ø
+ { imgCleaner }
+Korekta wygładzania
+ { Label130 }
+Rozdziel
+ { Label131 }
+Warstwa
+ { imgSetSize }
+Użyj wymiarów obrazu
+ { Label161 }
+Tekst
+ { Label72 }
+Status
+ { Label73 }
+Terminal
+ { comMonitor }
+Monitor
+ { Label76 }
+Prędkość
+ { Label74 }
+Komponent
+ { Label75 }
+gCode
+ { comBack }
+Druga strona
+ { Label77 }
+Krok posuwu [mm]
+ { spMotorEnable }
+Silnik - obroty (RPM)
+ { Label78 }
+Prędkość posuwu [mm/s]
+ { Label83 }
+Planowanie powierzchni frezem
+ { Label84 }
+Wymiar X
+ { Label85 }
+Wymiar Y
+ { Label86 }
+Grubość frezu
+ { Label87 }
+Głębokość
+ { spOffsetZEnable }
+Użyj odchyłek osi Z
+ { spBoard }
+Użyj wymiarów materiału
+ { fsCupperEn }
+Parametry dla rowków
+ { Label97 }
+Posuw
+ { Label98 }
+Średnica
+ { Label99 }
+Głębokość
+ { fsDrillEn }
+Parametry dla wiercenia
+ { Label100 }
+Posuw
+ { Label101 }
+Średnica
+ { Label102 }
+Głębokość
+ { fsCutEn }
+Parametry dla frezu
+ { Label103 }
+Posuw
+ { Label104 }
+Średnica
+ { Label105 }
+Głębokość
+ { fsAddSpeed }
+Wstaw parametr prędkości
+ { Label152 }
+dla rowków, wiercenia i frezu
+ { Label153 }
+według parametrów posuwu
+ { Label154 }
+Użycie param. F w gCode:
+ { Label155 }
+Stwórz wiele wyrobów:
+ { mrProbe }
+Pojedynczy pomiar
+ { mrSimpleProbe }
+Cztery pomiary
+ { mrMultiprobe }
+Multi-pomiar
+ { Label156 }
+Znajdź punkt zerowy Z
+ { Label157 }
+Krotność
+ { mFile }
+Plik
+ { mNewFile }
+Nowy plik
+ { mOpenFile }
+Otwórz plik
+ { mSaveMyFile }
+Zapisz plik
+ { mSaveFile }
+Zapisz plik jako
+ { mSaveToComponent }
+Zapisz komponent
+ { mSaveGCode }
+Zapisz gCode
+ { mSaveAll }
+Zapisz wszystko
+ { mImport }
+Importuj
+ { mGER }
+Importuj GERBER
+ { mExc }
+Importuj Excellon
+ { mDXF }
+Importuj FlatCamDXF
+ { mImg }
+Importuj obraz
+ { mComponentAdd }
+Otwórz plik jako komponent
+ { mOpenImage }
+Otwórz obraz
+ { MenuItem1 }
+Edycja
+ { mBack }
+Cofnij [Ctrl+Z]
+ { mFoward }
+Ponów [Ctrl+Shift+Z]
+ { msbEdit }
+Edytuj
+ { mSetTo254 }
+Zaznacz
+ { mFlopX }
+Odbij wzdłuż osi X
+ { mFlopY }
+Odbij komponent wzdłuż osi Y
+ { mOptimalize }
+Optymalizuj
+ { mBrakeLine }
+Rozdziel długie trasy
+ { mAutoSize }
+Dopasuj wymiary
+ { mNewGroupFromExcellon }
+Użyj wczytanego Excellon jako komponent
+ { mNewGroupFromClipper }
+Użyj wczytanego Clipper jako komponent
+ { mNewGroupFromDXF }
+Użyj wczytanego FlatCam jako komponent
+ { mNewGroupFromImg }
+Użyj wczytanego obrazu jako komponent
+ { MenuItem42 }
+Ustawienia
+ { mChKeyEn }
+Sterowanie klawiaturą
+ { mLockCTRL }
+Wciśnięty CTRL (blokada)
+ { mSwitchEdirSelect }
+Edycja: Przełączaj Edytuj/Zaznacz
+ { mEditUnselect }
+Edycja: Odznacz przed edycją
+ { mHole_Mirror }
+Parametr: Tryb otworów montażowych
+ { mDispAxis }
+Parametr: Ustaw współrzędne kliknięciem
+ { mImportImgShow }
+Import.Img: Pokaż podgląd konwersji
+ { MenuItem2 }
+Interpreter
+ { MenuItem3 }
+Stwórz gCode
+ { mFreza }
+Frezowanie
+ { MenuItem24 }
+Ustaw interpreter GRBL
+ { MenuItem25 }
+Ustaw interpreter PROXXON
+ { MenuItem43 }
+Ustawienia
+ { mOptimalizeEn }
+Interpreter: Automatyczna optymalizacja
+ { mRegSendEdit }
+Frezarka.Rejestr: Wyślij edytowany element
+ { mgsOKEn }
+Frezarka.Status: Pokazuj OK
+ { mgsStrEn }
+Frezarka.Status: Pokazuj wartości $
+ { mgsRepEn }
+Frezarka.Status: Pokazuj raport <>
+ { mgsDisConn }
+Frezarka: Odłącz port po zakończeniu
+ { mAutoSavePosition }
+Frezarka: Przed startem zapisz aktualną pozycję
+ { mgsStopCmd }
+Frezarka: Po naciśnięciu STOP wyślij !
+ { mProbeMsg }
+Frezarka.Sonda: Ostrzeż przed pomiarem
+ { mAutoBreakLine }
+Frezarka.Sonda: Przy Multi-pomiarze rozdziel trasy
+ { mgsLesonPort }
+Port: Wyszukaj porty po starcie
+ { MenuItem4 }
+Pomoc
+ { mHTML }
+http://wwlado.sk (Kopiuj adres)
+ { mVideo }
+Samouczek wideo (Kopiuj adres)
+ { mMyName }
+O programie
+ { miName }
+Mgr Vladimír Višňovský
+ { miEmial }
+wwlado@gmail.com
+ { miVersion }
+v. 2.4.3 (c) 2025 Lipany SVK
+ { mCreateLNG }
+Utwórz plik LNG
+ { mDel }
+Usuń
+ { mMedzi }
+Zaznacz pomiędzy
+ { MenuItem26 }
+Resetuj [~]
+ { MenuItem27 }
+Zatrzymaj [!]
+ { MenuItem28 }
+Drzwi bezpieczeństwa [0x84]
+ { MenuItem29 }
+Anuluj krokowanie JOG [0x85]
+ { MenuItem30 }
+Pokaż ustawienia Grbl [$$]
+ { MenuItem31 }
+Pokaż parametry GCode [$#]
+ { MenuItem32 }
+Pokaż stan analizatora GCode [$G]
+ { MenuItem33 }
+Przełącz tryb sprawdzania GCode [$C]
+ { MenuItem34 }
+Uruchom cykl bazowania (homing) [$H]
+ { MenuItem35 }
+Stan blokady Alarm [$X]
+ { MenuItem36 }
+Pokaż informacje o kompilacji [$I]
+ { MenuItem37 }
+Pokaż zapisany kod startowy [$N]
+ { MenuItem38 }
+Przywróć domyślne ustawienia Grbl [$RST=$]
+ { MenuItem39 }
+Wyczyść odchylenia G54-G59 WCS i pozycje G28/30 w EEPROM [$RST=#]
+ { MenuItem40 }
+Wyczyść i wczytaj wszystkie dane z EEPROM [$RST=*]
+ { MenuItem41 }
+Włącz tryb uśpienia [$SLP]
+ { MenuItem46 }
+Polecenie AT - sprawdzenie
+ { MenuItem47 }
+Polecenie AT - Prędkość na 115200
+ { MenuItem48 }
+Polecenie AT - Prędkość na 9600
+ { MenuItem49 }
+Wszystko
+ { MenuItem50 }
+Ścieżki
+ { MenuItem51 }
+Otwory (do wiercenia)
+ { MenuItem52 }
+Wycięcie i wyfrezowany otwór

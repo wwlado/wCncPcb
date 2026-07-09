@@ -1,0 +1,469 @@
+{ Language file for application wCncPcb }
+ { Label1 }
+Dimensions du projet :
+ { Label6 }
+Diamètre de la fraise :
+ { Label8 }
+Point zéro du composant :
+ { Label13 }
+Grille et pas du curseur :
+ { chSaveGCode }
+Enregistrer le gCode
+ { Label62 }
+Tout enregistrer
+ { chSaveGCode_Bk }
+Enregistrer le gCode - face arrière
+ { chSaveImage }
+Enregistrer l'image en couleur
+ { chSaveMarkerImage }
+Enregistrer l'image de la sérigraphie
+ { chSaveCopperImage }
+Enregistrer l'image des pistes
+ { chSaveBackCpImage }
+Enregistrer l'image des pistes
+ { Label63 }
+- face arrière
+ { Label67 }
+Enregistrer le composant
+ { Label68 }
+Nom du composant
+ { lCut_Hole }
+Trou
+ { lCut_Square }
+Carré arrondi
+ { lCut_Circle }
+Cercle
+ { lCut_Way }
+Chemin
+ { Label54 }
+Coordonnées du curseur :
+ { Label55 }
+Coordonnées du composant :
+ { lCut_Text }
+Texte
+ { LCut_LayerLabel }
+Couche (Layer)
+ { chCut_LayerParameter }
+Unifier les paramètres des couches
+ { chCut_RectAndHole }
+Contour avec trous
+ { Label64 }
+Liste des composants
+ { ComponentFlopY }
+Retourner selon l'axe Y
+ { ComponentRotate }
+Pivoter de 90°
+ { ComponentFlopX }
+Retourner selon l'axe X
+ { ChNotGroup }
+Marquer comme séparé
+ { Label57 }
+Liste des actions
+ { Label65 }
+Sélection en masse
+ { Label66 }
+Composants
+ { chOnlyPosHandler }
+Éditer le composant via la poignée uniquement
+ { Label16 }
+Point de départ :
+ { Label17 }
+Point final :
+ { Label18 }
+Miroir :
+ { chFlopX }
+Vertical
+ { chFlopY }
+Horizontal
+ { Label19 }
+Couches :
+ { Label36 }
+Vitesse d'avance :
+ { Label37 }
+Zéro :
+ { Label38 }
+Cuivre :
+ { Label39 }
+Coupe :
+ { Label56 }
+Miroir face supérieure
+ { chBFlopX }
+Vertical
+ { chBFlopY }
+Horizontal
+ { Label147 }
+Face supérieure
+ { chTopEnDrill }
+Autoriser les trous
+ { chTopEnCut }
+Autoriser la coupe
+ { chTopEnContour }
+Autoriser le contour
+ { Label150 }
+Commande de palpage (PROBE)
+ { Label151 }
+ - Exemple : G38.3Z-30F10
+ { Label58 }
+En-tête du fichier gCode
+ { chAddName }
+Insérer le nom
+ { chAddDate }
+Insérer la date et l'heure
+ { Label59 }
+Code d'initialisation
+ { Label60 }
+Fin du code
+ { Label61 }
+Préréglage
+ { Label70 }
+Extension du fichier [sans point]
+ { Label106 }
+Unités de mesure
+ { imInch }
+Le fichier est en pouces (Inch)
+ { im1000 }
+Millième (mil)
+ { Label123 }
+Retourner
+ { imfAutosize }
+Ajuster la taille
+ { imfGTL }
+Couche de cuivre supérieure
+ { imfGBL }
+Couche de cuivre inférieure
+ { imfGTO }
+Sérigraphie supérieure
+ { imfDRL }
+Trous, pastilles (pads)
+ { infAutoFlop }
+Rotation correcte
+ { Label141 }
+Fichiers : .GTL, .cmp
+ { Label142 }
+Fichiers : .GBL, .sol
+ { Label143 }
+Fichiers : .GTO .plc
+ { Label144 }
+Fichiers : .DRL, .dpv
+ { imfDRH }
+Fichier : .drh
+ { imfMIL }
+Fraisage .mil
+ { Label139 }
+Excellon
+ { excAppend }
+Ajouter à partir d'un autre fichier
+ { Label133 }
+Couche
+ { Label134 }
+ Fraise Ø
+ { clpDrillEnable }
+Autoriser le décalage (offset)
+ { clpSetSize }
+Réinitialiser la taille
+ { Label137 }
+GERBER
+ { Label148 }
+Clipper utilisé
+ { clpLayer_1 }
+Couche inférieure
+ { clpLayer_2 }
+Couche supérieure
+ { clpLayer_3 }
+Sérigraphie
+ { clpLayer_4 }
+Fraisage
+ { Label107 }
+Assignation des couches (L)
+ { Label108 }
+Inférieure :
+ { Label109 }
+Supérieure :
+ { Label110 }
+Coupe :
+ { Label111 }
+Contour :
+ { Label112 }
+Sérigraphie :
+ { dxfSetSize }
+Réinitialiser la taille
+ { Label119 }
+Pas :
+ { Label120 }
+Épaisseur
+ { dxfChangeWidth }
+Charger l'épaisseur de ligne
+ { Label121 }
+Qualité de chargement
+ { Label138 }
+DXF
+ { imgInvert }
+Inversé (cuivre - blanc)
+ { Label124 }
+Résolution
+ { Label125 }
+DPI
+ { Label126 }
+ Fraise Ø
+ { imgCleaner }
+Correction du lissage
+ { Label130 }
+Diviser
+ { Label131 }
+Couche
+ { imgSetSize }
+Utiliser les dimensions de l'image
+ { Label161 }
+Texte
+ { Label72 }
+Statut
+ { Label73 }
+Terminal
+ { comMonitor }
+Moniteur
+ { Label76 }
+Vitesse
+ { Label74 }
+Composant
+ { Label75 }
+gCode
+ { comBack }
+Face arrière
+ { Label77 }
+Pas d'avance [mm]
+ { spMotorEnable }
+Moteur - tours (RPM)
+ { Label78 }
+Vitesse d'avance [mm/s]
+ { Label83 }
+Surfaçage à la fraise
+ { Label84 }
+Dimension X
+ { Label85 }
+Dimension Y
+ { Label86 }
+Épaisseur de la fraise
+ { Label87 }
+Profondeur
+ { spOffsetZEnable }
+Utiliser les écarts de l'axe Z
+ { spBoard }
+Utiliser les dimensions de la pièce
+ { fsCupperEn }
+Paramètres pour rainures
+ { Label97 }
+Avance
+ { Label98 }
+Diamètre
+ { Label99 }
+Profondeur
+ { fsDrillEn }
+Paramètres pour perçage
+ { Label100 }
+Avance
+ { Label101 }
+Diamètre
+ { Label102 }
+Profondeur
+ { fsCutEn }
+Paramètres pour fraisage
+ { Label103 }
+Avance
+ { Label104 }
+Diamètre
+ { Label105 }
+Profondeur
+ { fsAddSpeed }
+Insérer le paramètre de vitesse
+ { Label152 }
+pour rainures, perçage et fraisage
+ { Label153 }
+selon les paramètres d'avance
+ { Label154 }
+Utilisation du param. F dans le gCode :
+ { Label155 }
+Créer plusieurs produits :
+ { mrProbe }
+Mesure unique
+ { mrSimpleProbe }
+Quatre mesures
+ { mrMultiprobe }
+Multi-palpage
+ { Label156 }
+Trouver le point zéro Z
+ { Label157 }
+Multiplicité
+ { mFile }
+Fichier
+ { mNewFile }
+Nouveau fichier
+ { mOpenFile }
+Ouvrir un fichier
+ { mSaveMyFile }
+Enregistrer le fichier
+ { mSaveFile }
+Enregistrer le fichier sous
+ { mSaveToComponent }
+Enregistrer le composant
+ { mSaveGCode }
+Enregistrer le gCode
+ { mSaveAll }
+Tout enregistrer
+ { mImport }
+Importer
+ { mGER }
+Importer GERBER
+ { mExc }
+Importer Excellon
+ { mDXF }
+Importer FlatCamDXF
+ { mImg }
+Importer une image
+ { mComponentAdd }
+Ouvrir le fichier comme composant
+ { mOpenImage }
+Ouvrir l'image
+ { MenuItem1 }
+Édition
+ { mBack }
+Annuler [Ctrl+Z]
+ { mFoward }
+Rétablir [Ctrl+Shift+Z]
+ { msbEdit }
+Éditer
+ { mSetTo254 }
+Sélectionner
+ { mFlopX }
+Retourner selon l'axe X
+ { mFlopY }
+Retourner le composant selon l'axe Y
+ { mOptimalize }
+Optimiser
+ { mBrakeLine }
+Diviser les longs chemins
+ { mAutoSize }
+Ajuster les dimensions
+ { mNewGroupFromExcellon }
+Utiliser l'Excellon chargé comme composant
+ { mNewGroupFromClipper }
+Utiliser le Clipper chargé comme composant
+ { mNewGroupFromDXF }
+Utiliser le FlatCam chargé comme composant
+ { mNewGroupFromImg }
+Utiliser l'image chargée comme composant
+ { MenuItem42 }
+Paramètres
+ { mChKeyEn }
+Contrôle au clavier
+ { mLockCTRL }
+CTRL pressé (verrou)
+ { mSwitchEdirSelect }
+Édition : Alterner Éditer/Sélectionner
+ { mEditUnselect }
+Édition : Désélectionner avant d'éditer
+ { mHole_Mirror }
+Paramètre : Mode trous de fixation
+ { mDispAxis }
+Paramètre : Définir coord. par clic
+ { mImportImgShow }
+Import.Img : Afficher l'aperçu de conversion
+ { MenuItem2 }
+Interpréteur
+ { MenuItem3 }
+Créer le gCode
+ { mFreza }
+Fraisage
+ { MenuItem24 }
+Régler l'interpréteur GRBL
+ { MenuItem25 }
+Régler l'interpréteur PROXXON
+ { MenuItem43 }
+Paramètres
+ { mOptimalizeEn }
+Interpréteur : Optimisation automatique
+ { mRegSendEdit }
+Fraise.Registre : Envoyer l'élément édité
+ { mgsOKEn }
+Fraise.Statut : Afficher OK
+ { mgsStrEn }
+Fraise.Statut : Afficher valeurs $
+ { mgsRepEn }
+Fraise.Statut : Afficher rapport <>
+ { mgsDisConn }
+Fraise : Déconnecter le port à la fin
+ { mAutoSavePosition }
+Fraise : Enregistrer la position actuelle avant le départ
+ { mgsStopCmd }
+Fraise : Envoyer ! lors de l'appui sur STOP
+ { mProbeMsg }
+Fraise.Sonde : Avertir avant la mesure
+ { mAutoBreakLine }
+Fraise.Sonde : Diviser les chemins en Multi-palpage
+ { mgsLesonPort }
+Port : Rechercher les ports au démarrage
+ { MenuItem4 }
+Aide
+ { mHTML }
+http://wwlado.sk (Copier l'adresse)
+ { mVideo }
+Tutoriel vidéo (Copier l'adresse)
+ { mMyName }
+À propos du programme
+ { miName }
+Mgr. Vladimír Višňovský
+ { miEmial }
+wwlado@gmail.com
+ { miVersion }
+v. 2.4.3 (c) 2025 Lipany SVK
+ { mCreateLNG }
+Créer le fichier LNG
+ { mDel }
+Supprimer
+ { mMedzi }
+Sélectionner entre
+ { MenuItem26 }
+Réinitialiser [~]
+ { MenuItem27 }
+Arrêt [!]
+ { MenuItem28 }
+Porte de sécurité [0x84]
+ { MenuItem29 }
+Annuler le JOG [0x85]
+ { MenuItem30 }
+Afficher les paramètres Grbl [$$]
+ { MenuItem31 }
+Afficher les paramètres GCode [$#]
+ { MenuItem32 }
+Afficher l'état du parseur GCode [$G]
+ { MenuItem33 }
+Basculer en mode vérification GCode [$C]
+ { MenuItem34 }
+Lancer le cycle de prise d'origine [$H]
+ { MenuItem35 }
+État du verrouillage d'alarme [$X]
+ { MenuItem36 }
+Afficher les infos de compilation [$I]
+ { MenuItem37 }
+Afficher le code de démarrage enregistré [$N]
+ { MenuItem38 }
+Réinitialiser les paramètres Grbl [$RST=$]
+ { MenuItem39 }
+Effacer G54-G59 WCS et positions G28/30 dans l'EEPROM [$RST=#]
+ { MenuItem40 }
+Effacer et charger toutes les données de l'EEPROM [$RST=*]
+ { MenuItem41 }
+Activer le mode veille [$SLP]
+ { MenuItem46 }
+Commande AT - vérification
+ { MenuItem47 }
+Commande AT - Vitesse à 115200
+ { MenuItem48 }
+Commande AT - Vitesse à 9600
+ { MenuItem49 }
+Tout
+ { MenuItem50 }
+Pistes
+ { MenuItem51 }
+Trous (pour perçage)
+ { MenuItem52 }
+Découpe et trou fraisé

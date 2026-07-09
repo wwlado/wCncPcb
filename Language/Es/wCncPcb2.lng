@@ -1,0 +1,469 @@
+{ Language file for application wCncPcb }
+ { Label1 }
+Dimensiones del proyecto:
+ { Label6 }
+Diámetro de la fresa:
+ { Label8 }
+Punto cero del componente:
+ { Label13 }
+Rejilla y paso del cursor:
+ { chSaveGCode }
+Guardar gCode
+ { Label62 }
+Guardar todo
+ { chSaveGCode_Bk }
+Guardar gCode - lado posterior
+ { chSaveImage }
+Guardar imagen en color
+ { chSaveMarkerImage }
+Guardar imagen de serigrafía
+ { chSaveCopperImage }
+Guardar imagen de pistas
+ { chSaveBackCpImage }
+Guardar imagen de pistas
+ { Label63 }
+- lado posterior
+ { Label67 }
+Guardar componente
+ { Label68 }
+Nombre del componente
+ { lCut_Hole }
+Agujero
+ { lCut_Square }
+Cuadrado redondeado
+ { lCut_Circle }
+Círculo
+ { lCut_Way }
+Ruta
+ { Label54 }
+Coordenadas del cursor:
+ { Label55 }
+Coordenadas del componente:
+ { lCut_Text }
+Texto
+ { LCut_LayerLabel }
+Capa (Layer)
+ { chCut_LayerParameter }
+Unificar parámetros de capas
+ { chCut_RectAndHole }
+Contorno con agujeros
+ { Label64 }
+Lista de componentes
+ { ComponentFlopY }
+Voltear en eje Y
+ { ComponentRotate }
+Rotar 90°
+ { ComponentFlopX }
+Voltear en eje X
+ { ChNotGroup }
+Marcar como separado
+ { Label57 }
+Lista de acciones
+ { Label65 }
+Marcado masivo
+ { Label66 }
+Componentes
+ { chOnlyPosHandler }
+Editar pieza solo por el anclaje
+ { Label16 }
+Punto inicial:
+ { Label17 }
+Punto final:
+ { Label18 }
+Volteo:
+ { chFlopX }
+Vertical
+ { chFlopY }
+Horizontal
+ { Label19 }
+Capas:
+ { Label36 }
+Avance:
+ { Label37 }
+Cero:
+ { Label38 }
+Cobre:
+ { Label39 }
+Corte:
+ { Label56 }
+Volteo lado superior
+ { chBFlopX }
+Vertical
+ { chBFlopY }
+Horizontal
+ { Label147 }
+Lado superior
+ { chTopEnDrill }
+Habilitar agujeros
+ { chTopEnCut }
+Habilitar corte
+ { chTopEnContour }
+Habilitar contorno
+ { Label150 }
+Comando de sondeo (PROBE)
+ { Label151 }
+ - Ejemplo: G38.3Z-30F10
+ { Label58 }
+Encabezado del archivo gCode
+ { chAddName }
+Insertar nombre
+ { chAddDate }
+Insertar fecha y hora
+ { Label59 }
+Código de inicialización
+ { Label60 }
+Fin del código
+ { Label61 }
+Preajuste
+ { Label70 }
+Extensión del archivo [sin punto]
+ { Label106 }
+Unidades de dimensión
+ { imInch }
+El archivo está en pulgadas (Inch)
+ { im1000 }
+Milésima (mil)
+ { Label123 }
+Voltear
+ { imfAutosize }
+Ajustar tamaño
+ { imfGTL }
+Capa de cobre superior
+ { imfGBL }
+Capa de cobre inferior
+ { imfGTO }
+Serigrafía superior
+ { imfDRL }
+Agujeros, pads
+ { infAutoFlop }
+Girar correctamente
+ { Label141 }
+Archivos: .GTL, .cmp
+ { Label142 }
+Archivos: .GBL, .sol
+ { Label143 }
+Archivos: .GTO .plc
+ { Label144 }
+Archivos: .DRL, .dpv
+ { imfDRH }
+Archivo: .drh
+ { imfMIL }
+Fresado .mil
+ { Label139 }
+Excellon
+ { excAppend }
+Añadir desde otro archivo
+ { Label133 }
+Capa
+ { Label134 }
+ Fresa Ø
+ { clpDrillEnable }
+Habilitar desplazamiento (offset)
+ { clpSetSize }
+Reajustar tamaño
+ { Label137 }
+GERBER
+ { Label148 }
+Clipper utilizado
+ { clpLayer_1 }
+Capa inferior
+ { clpLayer_2 }
+Capa superior
+ { clpLayer_3 }
+Serigrafía
+ { clpLayer_4 }
+Fresado
+ { Label107 }
+Asignación de capas (L)
+ { Label108 }
+Inferior:
+ { Label109 }
+Superior:
+ { Label110 }
+Corte:
+ { Label111 }
+Contorno:
+ { Label112 }
+Serigrafía:
+ { dxfSetSize }
+Reajustar tamaño
+ { Label119 }
+Paso:
+ { Label120 }
+Grosor
+ { dxfChangeWidth }
+Cargar grosor de línea
+ { Label121 }
+Calidad de carga
+ { Label138 }
+DXF
+ { imgInvert }
+Invertido (cobre - blanco)
+ { Label124 }
+Resolución
+ { Label125 }
+DPI
+ { Label126 }
+ Fresa Ø
+ { imgCleaner }
+Corrección de suavizado
+ { Label130 }
+Dividir
+ { Label131 }
+Capa
+ { imgSetSize }
+Usar dimensiones de imagen
+ { Label161 }
+Texto
+ { Label72 }
+Estado
+ { Label73 }
+Terminal
+ { comMonitor }
+Monitor
+ { Label76 }
+Velocidad
+ { Label74 }
+Componente
+ { Label75 }
+gCode
+ { comBack }
+Lado posterior
+ { Label77 }
+Paso de avance [mm]
+ { spMotorEnable }
+Motor - RPM
+ { Label78 }
+Velocidad de avance [mm/s]
+ { Label83 }
+Planear superficie con fresa
+ { Label84 }
+Dimensión X
+ { Label85 }
+Dimensión Y
+ { Label86 }
+Grosor de la fresa
+ { Label87 }
+Profundidad
+ { spOffsetZEnable }
+Usar desviaciones del eje Z
+ { spBoard }
+Usar dimensiones de la pieza
+ { fsCupperEn }
+Parámetros para ranuras
+ { Label97 }
+Avance
+ { Label98 }
+Diámetro
+ { Label99 }
+Profundidad
+ { fsDrillEn }
+Parámetros para taladrado
+ { Label100 }
+Avance
+ { Label101 }
+Diámetro
+ { Label102 }
+Profundidad
+ { fsCutEn }
+Parámetros para fresado
+ { Label103 }
+Avance
+ { Label104 }
+Diámetro
+ { Label105 }
+Profundidad
+ { fsAddSpeed }
+Insertar parámetro de velocidad
+ { Label152 }
+para ranuras, taladrado y fresado
+ { Label153 }
+según parámetros de avance
+ { Label154 }
+Uso de param. F en gCode:
+ { Label155 }
+Crear múltiples productos:
+ { mrProbe }
+Medición única
+ { mrSimpleProbe }
+Cuatro mediciones
+ { mrMultiprobe }
+Multi-sondeo
+ { Label156 }
+Encontrar punto cero Z
+ { Label157 }
+Multiplicidad
+ { mFile }
+Archivo
+ { mNewFile }
+Nuevo archivo
+ { mOpenFile }
+Abrir archivo
+ { mSaveMyFile }
+Guardar archivo
+ { mSaveFile }
+Guardar archivo como
+ { mSaveToComponent }
+Guardar componente
+ { mSaveGCode }
+Guardar gCode
+ { mSaveAll }
+Guardar todo
+ { mImport }
+Importar
+ { mGER }
+Importar GERBER
+ { mExc }
+Importar Excellon
+ { mDXF }
+Importar FlatCamDXF
+ { mImg }
+Importar imagen
+ { mComponentAdd }
+Abrir archivo como componente
+ { mOpenImage }
+Abrir imagen
+ { MenuItem1 }
+Editar
+ { mBack }
+Deshacer [Ctrl+Z]
+ { mFoward }
+Rehacer [Ctrl+Shift+Z]
+ { msbEdit }
+Editar
+ { mSetTo254 }
+Seleccionar
+ { mFlopX }
+Voltear en eje X
+ { mFlopY }
+Voltear componente en eje Y
+ { mOptimalize }
+Optimizar
+ { mBrakeLine }
+Dividir rutas largas
+ { mAutoSize }
+Ajustar dimensiones
+ { mNewGroupFromExcellon }
+Usar Excellon cargado como componente
+ { mNewGroupFromClipper }
+Usar Clipper cargado como componente
+ { mNewGroupFromDXF }
+Usar FlatCam cargado como componente
+ { mNewGroupFromImg }
+Usar imagen cargada como componente
+ { MenuItem42 }
+Ajustes
+ { mChKeyEn }
+Control por teclado
+ { mLockCTRL }
+CTRL presionado (bloqueo)
+ { mSwitchEdirSelect }
+Edit: Alternar Editar/Seleccionar
+ { mEditUnselect }
+Edit: Deseleccionar antes de editar
+ { mHole_Mirror }
+Parámetro: Modo de agujeros de montaje
+ { mDispAxis }
+Parámetro: Definir coord. por clic
+ { mImportImgShow }
+Import.Img: Mostrar vista previa de conversión
+ { MenuItem2 }
+Intérprete
+ { MenuItem3 }
+Crear gCode
+ { mFreza }
+Fresado
+ { MenuItem24 }
+Configurar intérprete GRBL
+ { MenuItem25 }
+Configurar intérprete PROXXON
+ { MenuItem43 }
+Ajustes
+ { mOptimalizeEn }
+Intérprete: Optimización automática
+ { mRegSendEdit }
+Fresa.Registro: Enviar elemento editado
+ { mgsOKEn }
+Fresa.Estado: Mostrar OK
+ { mgsStrEn }
+Fresa.Status: Mostrar valores $
+ { mgsRepEn }
+Fresa.Status: Mostrar reporte <>
+ { mgsDisConn }
+Fresa: Desconectar puerto al finalizar
+ { mAutoSavePosition }
+Fresa: Guardar posición actual antes del inicio
+ { mgsStopCmd }
+Fresa: Al presionar STOP enviar !
+ { mProbeMsg }
+Fresa.Sonda: Avisar antes de la medición
+ { mAutoBreakLine }
+Fresa.Sonda: Dividir rutas en multi-sondeo
+ { mgsLesonPort }
+Puerto: Buscar puertos al inicio
+ { MenuItem4 }
+Ayuda
+ { mHTML }
+http://wwlado.sk (Copiar dirección)
+ { mVideo }
+Video tutorial (Copier dirección)
+ { mMyName }
+Sobre el programa
+ { miName }
+Mgr. Vladimír Višňovský
+ { miEmial }
+wwlado@gmail.com
+ { miVersion }
+v. 2.4.3 (c) 2025 Lipany SVK
+ { mCreateLNG }
+Crear archivo LNG
+ { mDel }
+Eliminar
+ { mMedzi }
+Seleccionar entre
+ { MenuItem26 }
+Reiniciar [~]
+ { MenuItem27 }
+Detener [!]
+ { MenuItem28 }
+Puerta de seguridad [0x84]
+ { MenuItem29 }
+Cancelar JOG stepping [0x85]
+ { MenuItem30 }
+Mostrar ajustes Grbl [$$]
+ { MenuItem31 }
+Mostrar parámetros GCode [$#]
+ { MenuItem32 }
+Mostrar estado del parser GCode [$G]
+ { MenuItem33 }
+Alternar modo de verificación Gcode [$C]
+ { MenuItem34 }
+Iniciar ciclo de homing [$H]
+ { MenuItem35 }
+Estado de bloqueo de alarma [$X]
+ { MenuItem36 }
+Mostrar información de compilación [$I]
+ { MenuItem37 }
+Mostrar código de inicio guardado [$N]
+ { MenuItem38 }
+Restablecer valores Grbl [$RST=$]
+ { MenuItem39 }
+Borrar WCS G54-G59 y posiciones G28/30 en EEPROM [$RST=#]
+ { MenuItem40 }
+Borrar y cargar todos los datos de EEPROM [$RST=*]
+ { MenuItem41 }
+Habilitar modo de suspensión [$SLP]
+ { MenuItem46 }
+Comando AT - verificación
+ { MenuItem47 }
+Comando AT - Velocidad a 115200
+ { MenuItem48 }
+Comando AT - Velocidad a 9600
+ { MenuItem49 }
+Todo
+ { MenuItem50 }
+Pistas
+ { MenuItem51 }
+Agujeros (para taladrado)
+ { MenuItem52 }
+Recorte y agujero fresado
