@@ -1,5 +1,8 @@
 In this article, I will cover the production of simple printed circuit boards (hereinafter referred to as PCBs) using a small CNC router and the wCncPcb application.
 
+web: http://www.wwlado.sk
+video: https://youtube.com/playlist?list=PLp6RlN6QhmPX-suq-1hvk79Zl-4uRJ4jN&si=Z1-How1vTZgS7fyb
+
 During practical teaching, I often need to produce multiple simple PCBs in a fast and efficient way. Initially, I designed my PCBs on graph paper and then manually wrote the gCode for the router. Later, I designed a simple application where I drew a sketch of the holes, slots, and contours, and the application then generated the gCode from it. This allowed me to get a board exactly according to my ideas. I named this application wCncPcb.
 
 After some time, I acquired a small CNC router, the Route 3018 Pro (hereinafter referred to as the 3018). I decided to rewrite the entire application from scratch, fixing the shortcomings of the first version, adding component footprints, and introducing the ability to mill double-sided PCBs. The second version of wCncPcb generated gCode that I could send to a Proxxon mill using the ncCad9 application, or to the 3018 router using the gSender application. The small 3018 router also allows loading files via an SD card to manufacture the PCB offline. At that point in time, I preferred making PCBs on the large Proxxon mill, as the small 3018 router frequently "froze." In gSender, I could see the computer waiting for a task confirmation from the router, and conversely, the router waiting for the next command. The magic "continue" button was missing. There were even situations where the small router plunged all the way into the wasteboard or cut slots in completely wrong places.
