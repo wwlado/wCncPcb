@@ -1,6 +1,7 @@
 In this article, I will cover the production of simple printed circuit boards (hereinafter referred to as PCBs) using a small CNC router and the wCncPcb application.
 
 web: http://www.wwlado.sk
+
 video: https://youtube.com/playlist?list=PLp6RlN6QhmPX-suq-1hvk79Zl-4uRJ4jN&si=Z1-How1vTZgS7fyb
 
 During practical teaching, I often need to produce multiple simple PCBs in a fast and efficient way. Initially, I designed my PCBs on graph paper and then manually wrote the gCode for the router. Later, I designed a simple application where I drew a sketch of the holes, slots, and contours, and the application then generated the gCode from it. This allowed me to get a board exactly according to my ideas. I named this application wCncPcb.
